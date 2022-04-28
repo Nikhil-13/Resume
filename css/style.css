@@ -4,6 +4,7 @@
 }
 body {
   padding: 10px;
+  width: 98vw;
 }
 .container {
   margin: 5px;
@@ -21,7 +22,7 @@ p {
   align-items: center;
 }
 .row:nth-of-type(1) address {
-  line-height: 1.7;
+  line-height: 1.8;
   margin: 0;
   padding: 0;
 }
