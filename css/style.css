@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
+
 body {
   padding: 10px;
   width: 98vw;
@@ -22,7 +23,7 @@ p {
   align-items: center;
 }
 .row:nth-of-type(1) address {
-  line-height: 1.8;
+  line-height: 1.5;
   margin: 0;
   padding: 0;
 }
@@ -31,4 +32,17 @@ p {
 .lang li {
   margin-left: 1rem;
   list-style-type: none;
+}
+
+.title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin: -10px 5px;
+}
+p {
+  width: 95%;
+}
+.date {
+  padding-top: 5px;
+  font-size: 1rem;
 }
